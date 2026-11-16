@@ -1,0 +1,3 @@
+C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/CMakeFiles/ASIS_Engine.dir
+C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/CMakeFiles/ZERO_CHECK.dir
