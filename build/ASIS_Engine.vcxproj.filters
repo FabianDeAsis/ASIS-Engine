@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\MaterialManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\PhysicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\ScriptEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\NetworkServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Framebuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\ShadowMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\CascadedShadowMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\OmniShadowMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\SceneIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\PrefabManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\EditorUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\PostProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\ParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\SSAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\OASISTerrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\OASISMeshlet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\CharacterController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\AudioEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Water.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\DayNightCycle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Sequencer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\MaterialManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\PhysicsWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\ScriptEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\NetworkServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Framebuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\ShadowMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\CascadedShadowMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\OmniShadowMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\SceneIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\PrefabManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\EditorUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Skybox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\PostProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\ParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\SSAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Terrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\OASISTerrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\OASISMeshlet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\CharacterController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\AudioEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Water.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\DayNightCycle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Sequencer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{535F093F-D9C7-3F6B-A38F-628335FAD20E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1A44D0AF-15D7-3DBE-AFF7-005CAE03E2FD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

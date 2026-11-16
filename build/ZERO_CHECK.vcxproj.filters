@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\85e489c435f4fdfe64f6db2d03945dd5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{258A6C8D-8C11-3F9F-8406-6020A4F5F048}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

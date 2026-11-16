@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F22CA921-814E-33CE-AC62-87B816EA11B4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ASIS_Engine</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ASIS_Engine.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ASIS_Engine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ASIS_Engine.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ASIS_Engine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ASIS_Engine.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ASIS_Engine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ASIS_Engine.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ASIS_Engine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/dev/vcpkg/installed/x64-windows/include" /external:I "C:/dev/vcpkg/installed/x64-windows/include/bullet"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLFW_DLL;LUA_BUILD_AS_DLL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLFW_DLL;LUA_BUILD_AS_DLL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core;C:\dev\vcpkg\installed\x64-windows\include;C:\dev\vcpkg\installed\x64-windows\include\bullet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core;C:\dev\vcpkg\installed\x64-windows\include;C:\dev\vcpkg\installed\x64-windows\include\bullet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	[ASIS Engine] Copiando assets y scripts al directorio de salida...</Message>
+      <Command>setlocal
+C:\dev\vcpkg\vcpkg.exe z-applocal --target-binary=C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/Debug/ASIS_Engine.exe --installed-bin-dir=C:/dev/vcpkg/installed/x64-windows/debug/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/assets C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/Debug/assets
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/assets/shaders C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/Debug/shaders
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/src/scripts C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/Debug/scripts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\dev\vcpkg\installed\x64-windows\debug\lib\glad.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\glm.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\assimp-vc145-mtd.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\imguid.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\imguizmo.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\lua.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\LinearMath_Debug.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\Bullet3Common_Debug.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\BulletInverseDynamics_Debug.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\BulletCollision_Debug.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\BulletDynamics_Debug.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\BulletSoftBody_Debug.lib;ws2_32.lib;opengl32.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\zd.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\glfw3dll.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\Bullet3Common_Debug.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\BulletDynamics_Debug.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\BulletCollision_Debug.lib;C:\dev\vcpkg\installed\x64-windows\debug\lib\LinearMath_Debug.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/Debug/ASIS_Engine.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/Debug/ASIS_Engine.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/dev/vcpkg/installed/x64-windows/include" /external:I "C:/dev/vcpkg/installed/x64-windows/include/bullet"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;LUA_BUILD_AS_DLL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;LUA_BUILD_AS_DLL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core;C:\dev\vcpkg\installed\x64-windows\include;C:\dev\vcpkg\installed\x64-windows\include\bullet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core;C:\dev\vcpkg\installed\x64-windows\include;C:\dev\vcpkg\installed\x64-windows\include\bullet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	[ASIS Engine] Copiando assets y scripts al directorio de salida...</Message>
+      <Command>setlocal
+C:\dev\vcpkg\vcpkg.exe z-applocal --target-binary=C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/Release/ASIS_Engine.exe --installed-bin-dir=C:/dev/vcpkg/installed/x64-windows/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/assets C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/Release/assets
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/assets/shaders C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/Release/shaders
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/src/scripts C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/Release/scripts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\dev\vcpkg\installed\x64-windows\lib\glad.lib;C:\dev\vcpkg\installed\x64-windows\lib\glm.lib;C:\dev\vcpkg\installed\x64-windows\lib\assimp-vc145-mt.lib;C:\dev\vcpkg\installed\x64-windows\lib\imgui.lib;C:\dev\vcpkg\installed\x64-windows\lib\imguizmo.lib;C:\dev\vcpkg\installed\x64-windows\lib\lua.lib;C:\dev\vcpkg\installed\x64-windows\lib\LinearMath.lib;C:\dev\vcpkg\installed\x64-windows\lib\Bullet3Common.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletInverseDynamics.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletCollision.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletDynamics.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletSoftBody.lib;ws2_32.lib;opengl32.lib;C:\dev\vcpkg\installed\x64-windows\lib\z.lib;C:\dev\vcpkg\installed\x64-windows\lib\glfw3dll.lib;C:\dev\vcpkg\installed\x64-windows\lib\Bullet3Common.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletDynamics.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletCollision.lib;C:\dev\vcpkg\installed\x64-windows\lib\LinearMath.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/Release/ASIS_Engine.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/Release/ASIS_Engine.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/dev/vcpkg/installed/x64-windows/include" /external:I "C:/dev/vcpkg/installed/x64-windows/include/bullet"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;LUA_BUILD_AS_DLL;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;LUA_BUILD_AS_DLL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core;C:\dev\vcpkg\installed\x64-windows\include;C:\dev\vcpkg\installed\x64-windows\include\bullet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core;C:\dev\vcpkg\installed\x64-windows\include;C:\dev\vcpkg\installed\x64-windows\include\bullet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	[ASIS Engine] Copiando assets y scripts al directorio de salida...</Message>
+      <Command>setlocal
+C:\dev\vcpkg\vcpkg.exe z-applocal --target-binary=C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/MinSizeRel/ASIS_Engine.exe --installed-bin-dir=C:/dev/vcpkg/installed/x64-windows/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/assets C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/MinSizeRel/assets
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/assets/shaders C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/MinSizeRel/shaders
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/src/scripts C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/MinSizeRel/scripts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\dev\vcpkg\installed\x64-windows\lib\glad.lib;C:\dev\vcpkg\installed\x64-windows\lib\glm.lib;C:\dev\vcpkg\installed\x64-windows\lib\assimp-vc145-mt.lib;C:\dev\vcpkg\installed\x64-windows\lib\imgui.lib;C:\dev\vcpkg\installed\x64-windows\lib\imguizmo.lib;C:\dev\vcpkg\installed\x64-windows\lib\lua.lib;C:\dev\vcpkg\installed\x64-windows\lib\LinearMath.lib;C:\dev\vcpkg\installed\x64-windows\lib\Bullet3Common.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletInverseDynamics.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletCollision.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletDynamics.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletSoftBody.lib;ws2_32.lib;opengl32.lib;C:\dev\vcpkg\installed\x64-windows\lib\z.lib;C:\dev\vcpkg\installed\x64-windows\lib\glfw3dll.lib;C:\dev\vcpkg\installed\x64-windows\lib\Bullet3Common.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletDynamics.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletCollision.lib;C:\dev\vcpkg\installed\x64-windows\lib\LinearMath.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/MinSizeRel/ASIS_Engine.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/MinSizeRel/ASIS_Engine.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/dev/vcpkg/installed/x64-windows/include" /external:I "C:/dev/vcpkg/installed/x64-windows/include/bullet"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;LUA_BUILD_AS_DLL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;LUA_BUILD_AS_DLL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core;C:\dev\vcpkg\installed\x64-windows\include;C:\dev\vcpkg\installed\x64-windows\include\bullet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core;C:\dev\vcpkg\installed\x64-windows\include;C:\dev\vcpkg\installed\x64-windows\include\bullet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	[ASIS Engine] Copiando assets y scripts al directorio de salida...</Message>
+      <Command>setlocal
+C:\dev\vcpkg\vcpkg.exe z-applocal --target-binary=C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/RelWithDebInfo/ASIS_Engine.exe --installed-bin-dir=C:/dev/vcpkg/installed/x64-windows/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/assets C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/RelWithDebInfo/assets
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/assets/shaders C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/RelWithDebInfo/shaders
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/src/scripts C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/RelWithDebInfo/scripts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\dev\vcpkg\installed\x64-windows\lib\glad.lib;C:\dev\vcpkg\installed\x64-windows\lib\glm.lib;C:\dev\vcpkg\installed\x64-windows\lib\assimp-vc145-mt.lib;C:\dev\vcpkg\installed\x64-windows\lib\imgui.lib;C:\dev\vcpkg\installed\x64-windows\lib\imguizmo.lib;C:\dev\vcpkg\installed\x64-windows\lib\lua.lib;C:\dev\vcpkg\installed\x64-windows\lib\LinearMath.lib;C:\dev\vcpkg\installed\x64-windows\lib\Bullet3Common.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletInverseDynamics.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletCollision.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletDynamics.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletSoftBody.lib;ws2_32.lib;opengl32.lib;C:\dev\vcpkg\installed\x64-windows\lib\z.lib;C:\dev\vcpkg\installed\x64-windows\lib\glfw3dll.lib;C:\dev\vcpkg\installed\x64-windows\lib\Bullet3Common.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletDynamics.lib;C:\dev\vcpkg\installed\x64-windows\lib\BulletCollision.lib;C:\dev\vcpkg\installed\x64-windows\lib\LinearMath.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/RelWithDebInfo/ASIS_Engine.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/RelWithDebInfo/ASIS_Engine.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico -BC:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build --check-stamp-file C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindZLIB.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeCCompiler.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeCXXCompiler.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeRCCompiler.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeSystem.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpTargets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpTargets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpTargets.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletTargets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletTargets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletTargets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladTargets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfig-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfig-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\imguizmo\imguizmo-config-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\imguizmo\imguizmo-config-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\imguizmo\imguizmo-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\lua\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\installed\x64-windows\share\sol2\sol2-config-version.cmake;C:\dev\vcpkg\installed\x64-windows\share\sol2\sol2-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\sol2\sol2-targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config-version.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico -BC:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build --check-stamp-file C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindZLIB.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeCCompiler.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeCXXCompiler.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeRCCompiler.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeSystem.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpTargets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpTargets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpTargets.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletTargets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletTargets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletTargets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladTargets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfig-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfig-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\imguizmo\imguizmo-config-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\imguizmo\imguizmo-config-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\imguizmo\imguizmo-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\lua\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\installed\x64-windows\share\sol2\sol2-config-version.cmake;C:\dev\vcpkg\installed\x64-windows\share\sol2\sol2-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\sol2\sol2-targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config-version.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico -BC:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build --check-stamp-file C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindZLIB.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeCCompiler.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeCXXCompiler.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeRCCompiler.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeSystem.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpTargets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpTargets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpTargets.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletTargets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletTargets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletTargets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladTargets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfig-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfig-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\imguizmo\imguizmo-config-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\imguizmo\imguizmo-config-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\imguizmo\imguizmo-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\lua\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\installed\x64-windows\share\sol2\sol2-config-version.cmake;C:\dev\vcpkg\installed\x64-windows\share\sol2\sol2-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\sol2\sol2-targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config-version.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico -BC:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build --check-stamp-file C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindZLIB.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeCCompiler.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeCXXCompiler.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeRCCompiler.cmake;C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\4.3.1-msvc1\CMakeSystem.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpTargets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpTargets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\assimp\assimpTargets.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletTargets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletTargets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\bullet3\BulletTargets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glad\gladTargets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfig-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfig-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfig.cmake;C:\dev\vcpkg\installed\x64-windows\share\glm\glmConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\imgui\imgui-targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\imguizmo\imguizmo-config-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\imguizmo\imguizmo-config-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\imguizmo\imguizmo-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\lua\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\installed\x64-windows\share\sol2\sol2-config-version.cmake;C:\dev\vcpkg\installed\x64-windows\share\sol2\sol2-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\sol2\sol2-targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config-version.cmake;C:\dev\vcpkg\installed\x64-windows\share\unofficial-lua\unofficial-lua-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\main.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Window.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Window.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Shader.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Shader.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Mesh.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Mesh.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Texture.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Texture.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Material.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Material.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\MaterialManager.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\MaterialManager.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Light.h" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Camera.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Camera.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Model.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Model.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Renderer.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Renderer.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Entity.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Entity.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Scene.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Scene.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\PhysicsWorld.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\PhysicsWorld.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\ScriptEngine.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\ScriptEngine.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\NetworkServer.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\NetworkServer.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Framebuffer.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Framebuffer.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\ShadowMap.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\ShadowMap.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\CascadedShadowMap.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\CascadedShadowMap.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\OmniShadowMap.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\OmniShadowMap.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\SceneIO.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\SceneIO.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\PrefabManager.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\PrefabManager.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\EditorUI.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\EditorUI.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Skybox.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Skybox.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\PostProcess.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\PostProcess.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\ParticleSystem.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\ParticleSystem.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\SSAO.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\SSAO.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Animation.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Animation.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Terrain.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Terrain.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\OASISTerrain.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\OASISTerrain.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\OASISMeshlet.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\OASISMeshlet.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\CharacterController.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\CharacterController.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\AudioEngine.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\AudioEngine.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Water.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Water.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\DayNightCycle.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\DayNightCycle.cpp" />
+    <ClInclude Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Sequencer.h" />
+    <ClCompile Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\src\core\Sequencer.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Fabian\Desktop\AntiGravity\ASIS_Engine\motor_grafico\build\ZERO_CHECK.vcxproj">
+      <Project>{FBE4CE6C-9AD4-3F35-AC36-2901077D1CBC}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

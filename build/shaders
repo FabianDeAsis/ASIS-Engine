@@ -1,0 +1,15 @@
+#version 330 core
+out vec4 FragColor;
+
+in vec2 TexCoords;
+
+uniform sampler2D u_SceneTexture;
+uniform sampler2D u_SSAOTexture;
+uniform float u_Intensity;
+
+void main() {
+    vec3 scene = texture(u_SceneTexture, TexCoords).rgb;
+    float ao = texture(u_SSAOTexture, TexCoords).r;
+    float factor = mix(1.0, ao, clamp(u_Intensity, 0.0, 1.0));
+    FragColor = vec4(scene * factor, 1.0);
+}

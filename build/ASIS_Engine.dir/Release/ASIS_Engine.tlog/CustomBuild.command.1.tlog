@@ -1,0 +1,10 @@
+^C:\USERS\FABIAN\DESKTOP\ANTIGRAVITY\ASIS_ENGINE\MOTOR_GRAFICO\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico -BC:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build --check-stamp-file C:/Users/Fabian/Desktop/AntiGravity/ASIS_Engine/motor_grafico/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
