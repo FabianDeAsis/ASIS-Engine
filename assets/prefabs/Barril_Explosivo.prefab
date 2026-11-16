@@ -1,0 +1,29 @@
+{
+  "asis_prefab_version": "1.0",
+  "name": "Barril_Explosivo",
+  "entities": [
+    {
+      "name": "Barril",
+      "type": "Cylinder",
+      "position": [0.0, 0.6, 0.0],
+      "rotation": [0.0, 0.0, 0.0],
+      "scale": [0.65, 1.1, 0.65],
+      "color": [0.92, 0.18, 0.12],
+      "hasCustomColor": true,
+      "material": {
+        "roughness": 0.35,
+        "metallic": 0.55,
+        "specular": 0.7,
+        "emissionColor": [0.4, 0.05, 0.0],
+        "emissionIntensity": 1.5
+      },
+      "physics": {
+        "hasPhysics": true,
+        "mass": 8.0,
+        "colliderType": "BOX",
+        "isTrigger": false,
+        "triggerTag": "BarrilExplosivo"
+      }
+    }
+  ]
+}

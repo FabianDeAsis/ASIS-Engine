@@ -1,0 +1,29 @@
+{
+  "asis_prefab_version": "1.0",
+  "name": "Moneda_Dorada",
+  "entities": [
+    {
+      "name": "Moneda",
+      "type": "Cylinder",
+      "position": [0.0, 0.5, 0.0],
+      "rotation": [90.0, 0.0, 0.0],
+      "scale": [0.55, 0.08, 0.55],
+      "color": [1.0, 0.82, 0.05],
+      "hasCustomColor": true,
+      "material": {
+        "roughness": 0.15,
+        "metallic": 0.95,
+        "specular": 0.9,
+        "emissionColor": [0.25, 0.18, 0.0],
+        "emissionIntensity": 1.2
+      },
+      "physics": {
+        "hasPhysics": true,
+        "mass": 0.0,
+        "colliderType": "SPHERE",
+        "isTrigger": true,
+        "triggerTag": "MonedaColeccionable"
+      }
+    }
+  ]
+}

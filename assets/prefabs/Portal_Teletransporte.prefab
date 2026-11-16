@@ -1,0 +1,29 @@
+{
+  "asis_prefab_version": "1.0",
+  "name": "Portal_Teletransporte",
+  "entities": [
+    {
+      "name": "PortalRing",
+      "type": "Torus",
+      "position": [0.0, 1.2, 0.0],
+      "rotation": [90.0, 0.0, 0.0],
+      "scale": [1.2, 1.2, 0.3],
+      "color": [0.1, 0.85, 1.0],
+      "hasCustomColor": true,
+      "material": {
+        "roughness": 0.1,
+        "metallic": 0.4,
+        "specular": 0.9,
+        "emissionColor": [0.0, 0.8, 1.0],
+        "emissionIntensity": 2.8
+      },
+      "physics": {
+        "hasPhysics": true,
+        "mass": 0.0,
+        "colliderType": "BOX",
+        "isTrigger": true,
+        "triggerTag": "Portal"
+      }
+    }
+  ]
+}

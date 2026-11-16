@@ -1,0 +1,20 @@
+{
+  "asis_sequence_version": "1.0",
+  "duration": 6.0,
+  "fps": 30,
+  "looping": true,
+  "scope239": true,
+  "cameraTracks": [
+    {
+      "name": "Camara Multi-Corte",
+      "muted": false,
+      "keyframes": [
+        { "time": 0.0, "pos": [3.5, 0.4, 4.0], "tgt": [0.0, 1.2, 0.0], "focal": 18.0, "focusDist": 5.0, "aperture": 4.0, "shake": 0.0, "interp": 1 },
+        { "time": 2.0, "pos": [-2.2, 1.4, 1.8], "tgt": [0.0, 0.9, 0.0], "focal": 85.0, "focusDist": 2.5, "aperture": 2.0, "shake": 0.08, "interp": 1 },
+        { "time": 4.0, "pos": [0.0, 8.0, 1.5], "tgt": [0.0, 0.5, 0.0], "focal": 24.0, "focusDist": 8.0, "aperture": 5.6, "shake": 0.0, "interp": 1 }
+      ]
+    }
+  ],
+  "envTracks": [],
+  "entityTracks": []
+}
